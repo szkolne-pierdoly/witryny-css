@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkwitryny_css"]=self["webpackChunkwitryny_css"]||[]).push([[585],{7617:function(n,t){t.Z=(n,t)=>{const r=n.__vccOpts||n;for(const[c,u]of t)r[c]=u;return r}},6585:function(n,t,r){r.r(t),r.d(t,{default:function(){return f}});var c=r(9269);function u(n,t,r,u,e,s){const o=(0,c.up)("router-view");return(0,c.wg)(),(0,c.j4)(o)}var e={name:"EmptyLayout"},s=r(7617);const o=(0,s.Z)(e,[["render",u]]);var f=o}}]);
+//# sourceMappingURL=585.f73a15e4.js.map
