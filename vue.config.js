@@ -1,6 +1,16 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  transpileDependencies: true,
+  transpileDependencies: [
+    'quasar'
+  ],
+
   publicPath: '/witryny-css/',
-  outputDir: 'docs'
+  outputDir: 'docs',
+
+  pluginOptions: {
+    quasar: {
+      importStrategy: 'kebab',
+      rtlSupport: false
+    }
+  }
 })
