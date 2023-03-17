@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zad 16</title>
+  <link rel="stylesheet" href="../../default.css"/>
+</head>
+<body>
+  <div class="page-content">
+    <h1>Opis znacznika Div</h1>
+    <ol>
+      <li><code>div</code> jest elementem blokowym, co oznacza, że domyślnie zajmuje całą dostępną przestrzeń w poziomie. Można go jednak zmienić, stosując style CSS.</li>
+      <li>div jest używany do grupowania innych elementów HTML. Na przykład, można umieścić kilka elementów tekstu, przycisków, obrazów itp. wewnątrz jednego div i nadać mu styl, aby wyświetlał się jako jedna sekcja.</li>
+      <li>div nie ma semantycznej wartości, co oznacza, że nie niesie informacji o treści, którą zawiera. Jest to jednak bardzo przydatne narzędzie dla projektantów stron internetowych, ponieważ umożliwia łatwe tworzenie układów.</li>
+      <li>div jest często używany wraz z innymi elementami, takimi jak span, aby kontrolować stylowanie elementów. Na przykład, można zastosować styl CSS dla wszystkich elementów span wewnątrz danego div, a tym samym określić styl dla wszystkich zawartych w nim elementów.</li>
+      <li>div może być użyty jako kontener dla innych elementów, takich jak formularze, tabele, obrazy, filmy i wiele innych. Przykładowe zastosowanie div może być zobaczone w poniższym kodzie HTML:<br/>
+        <code>
+          < div id="kontener"><br/>
+            < h1>Tytuł strony< /h1><br/>
+            < p>Przykładowy tekst na stronie.< /p><br/>
+            < img src="obraz.jpg" alt="Opis obrazu" /><br/>
+          < /div>
+        </code>
+      </li>
+    </ol>
+    <h1>Opis znacznika Span</h1>
+    <ol>
+      <li><code>span</code> jest elementem inline, co oznacza, że nie zajmuje całej dostępnej przestrzeni w poziomie i można go umieścić wewnątrz innych elementów.</li>
+      <li><code>span</code> jest również używany do grupowania innych elementów HTML, ale w przeciwieństwie do div, służy do stylizowania mniejszych fragmentów tekstu lub innych elementów.</li>
+      <li><code>span</code> jest często używany wraz z innymi elementami, takimi jak div, aby kontrolować stylowanie elementów. Na przykład, można zastosować styl CSS dla wszystkich elementów span wewnątrz danego div, aby określić styl dla wszystkich zawartych w nim elementów.</li>
+      <li><code>span</code> jest używany do tworzenia sekcji tekstu, które mają być stylizowane w określony sposób. Na przykład, można umieścić element span wewnątrz tekstu, aby zastosować stylizację dla jednego słowa lub frazy, na przykład zmiana koloru tekstu lub jego pogrubienie.</li>
+      <li><code>span</code> jest również używany w kodzie HTML do identyfikowania elementów dla stylów CSS lub skryptów JavaScript. Na przykład, można nadać span unikalne id, aby manipulować nim za pomocą stylów CSS lub skryptów JavaScript.<br/>
+        Przykład użycia span można zobaczyć w poniższym kodzie HTML:<br/>
+      <code>
+        < p>To jest < span style="color: red;">czerwony< /span> tekst.< /p>
+      </code></li>
+    </ol>
+    <h1>Różnica między Div-em a Span-em</h1>
+    <ol>
+      <li>Typ: div jest elementem blokowym, podczas gdy span jest elementem inline. Oznacza to, że div zajmuje całą dostępną przestrzeń w poziomie, a span zajmuje tylko tyle miejsca, ile jest wymagane dla jego zawartości.</li>
+      <li>Przeznaczenie: div jest używany jako kontener dla innych elementów HTML, podczas gdy span jest używany do stylizowania mniejszych fragmentów tekstu lub innych elementów.</li>
+      <li>Semantyka: div nie ma semantycznej wartości, co oznacza, że nie niesie informacji o treści, którą zawiera. Z drugiej strony, span jest używany do identyfikowania specyficznych fragmentów tekstu w celu jego stylizacji lub manipulacji.</li>
+      <li>Rozmiar: div zwykle zawiera więcej treści niż span. Oznacza to, że div jest zazwyczaj większy niż span.</li>
+      <li>Stylowanie: div jest bardziej skuteczny w kontrolowaniu układu stron internetowych, podczas gdy span jest bardziej skuteczny w kontrolowaniu stylizacji fragmentów tekstu. Na przykład, jeśli chcesz podzielić stronę na kilka sekcji, lepiej użyć div, ale jeśli chcesz zmienić kolor tylko jednego słowa, lepiej użyć span.</li>
+      <h3>Podsumowując:</h3>
+      <li>div i span są elementami HTML, które służą różnym celom i mają różne właściwości. div jest używany jako kontener dla innych elementów, a span do stylizacji mniejszych fragmentów tekstu lub innych elementów. div jest elementem blokowym, podczas gdy span jest elementem inline. div nie ma semantycznej wartości, podczas gdy span jest używany do identyfikowania specyficznych fragmentów tekstu.</li>
+    </ol>
+    <h1>Elementy HTML:</h1>
+    <ol>
+      <li>
+        <h3>Liniowe</h3>
+        <ul>
+          <li>'a' - element linku służy do tworzenia hiperłączy w dokumencie HTML. Linki pozwalają użytkownikom przechodzić z jednej strony do drugiej z kliknięciem. Element a jest liniowy, ponieważ nie tworzy nowej linii, tylko jest wyświetlany w linii tekstu.</li>
+          <li>'strong' - element silnie podkreśla fragmenty tekstu, aby wyróżnić je z reszty tekstu. Jest on również liniowy, ponieważ nie tworzy nowej linii, tylko jest wyświetlany w linii tekstu.</li>
+          <li>'img' - element obrazka służy do wstawiania obrazów w dokument HTML. Element ten jest również liniowy, ponieważ nie tworzy nowej linii, tylko jest wyświetlany w linii tekstu.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Blokowe</h3>
+        <ul>
+          <li>'div' - element bloku służy do grupowania innych elementów HTML w bloki. div może zawierać wiele innych elementów i jest zwykle używany do kontroli układu strony.</li>
+          <li>'h1' - element nagłówka pierwszego stopnia jest używany do oznaczania najważniejszych tytułów na stronie. h1 tworzy blok i automatycznie przechodzi do nowej linii przed i po sobie.</li>
+          <li>'ul' - element listy nieuporządkowanej jest używany do tworzenia listy elementów, które nie muszą być uporządkowane w określonej kolejności. Element ul tworzy blok i automatycznie przechodzi do nowej linii przed i po sobie.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Blokowo-Liniowe</h3>
+        <ul>
+          <li>'form' - element formularza służy do tworzenia formularzy, w których użytkownicy mogą wprowadzać dane. Element form tworzy blokowolinowy kontener dla elementów formularza, takich jak input, select i textarea.</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</body>
+</html>

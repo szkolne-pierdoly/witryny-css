@@ -1,0 +1,33 @@
+=====HTML=====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zad 19</title>
+  <link rel="stylesheet" href="../../default.css"/>
+</head>
+<body>
+  <div class="page-content">
+    <div style="background-color: gray; color: black">
+      <span style="color: red">
+        <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest czerwone na żółtym tle</b>
+        a to jest zwykły tekst - również wewnątrz DIV i SPAN.
+      </span>
+      To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest czerwony, ale ma żółte tło.
+      <p style="color: red; font-size: 40mm">A to jest akapit (element blokowy) w ramach DIV.</p>
+    </div>
+
+    <div style="margin-top: 32px"></div>
+
+    <span style="color: green; font-size: 25mm">
+      <b>To jest pogrubienie (element wyświetlany w linii) w ramach SPAN</b>
+      a to jest zwykły tekst - również wewnątrz span.
+    </span>
+    <ol>
+      <li style="color: rgb(105, 39, 163); "><span style="color: rgb(105, 39, 163); ">Punkt pierwszy</span></li>
+      <li style="color: rgb(224, 45, 218); "><span style="color: rgb(224, 45, 218); ">Punkt drugi</span></li>
+      <li style="color: rgb(62, 169, 240); "><span style="color: rgb(62, 169, 240); ">Punkt trzeci</span></li>
+    </ol>
+  </div>
+</body>
+</html>

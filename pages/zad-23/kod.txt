@@ -1,0 +1,109 @@
+=====HTML=====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zad 23</title>
+  <link rel="stylesheet" href="zad-23.css"/>
+</head>
+<body>
+  <div class="page-content">
+    <p id="pogrubienie_okroj">
+      Nikodem Okroj
+      <br>
+      Javoviec jakimś cudem spłodził dziecko. Miał wymyślić imię dla dziecka. Na wszelki wypadek przygotował 2, jakby urodziły się bliźniaki.
+      <br>
+      Na nieszczęście urodziły się trojaczki i dostały imiona: Jaś, Staś, ArrayIndexOutOfBoundsException
+    </p>
+
+    <p id="pochylona">
+      Nikodem Okroj
+      <br>
+      Spotyka się dwóch programistów: - Słyszałem, że straciłeś pracę. Jak to jest być bezrobotnym?
+      <br>
+      To było najgorsze pół godziny mojego życia!
+    </p>
+
+    <p id="index_gorny_okroj">
+      Nikodem Okroj
+      <br>
+      Doktorze, każdej nocy śni mi się jeden i ten sam koszmar. Jestem na Antarktydzie a wokół pełno pingwinów. I ciągle przybywają i przybywają. Zbliżają się do mnie, napierają na mnie, przepychają mnie do urwiska i za każdym razem spychają mnie do lodowatej wody.
+      <br>
+      Doktor odpowiada: Normalnie leczymy takie przypadki w jeden dzień. Ale z Panem możemy mieć większe problemy, Panie Gates...
+    </p>
+
+    <p id="index_dolny_okroj">
+      Nikodem Okroj
+      <br>
+      Jadą samochodem 3 koledzy i jeden z nich był programistą. Samochód się psuje, pasażerowie siedzą w środku i dywagują: świece, rozrusznik, benzyna, skończył sie olej...
+      <br>
+      Nagle programista mówi: a może wyjdźmy z samochodu poczekajmy chwilę i potem wejdźmy :)
+      <br>
+    </p>
+
+    <p id="mono_okroj">
+      Nikodem Okroj
+      <br>
+      Programista pyta: Koledzy, piszę do Was w ważnej i nurtującej mnie sprawie. Podejrzewałem moją żonę o zdradę, więc pewnego dnia powiedziałem, że normalnie idę do pracy, a jednak zostałem w domu i czekałem co się stanie. Zamknąłem się w szafie w mojej pracowni i usłyszałem, jak ona wchodzi. Potem był jakiś męski głoś: śmiali się i wygłupiali. Chciałem mieć pewność, że to nie kolega z pracy albo jakiś inkasent, więc postanowiłem wyjść z szafy, doczołgać się w ich pobliże i zobaczyć co robią. Gdy tak czołgałem się koło mojego komputera usłyszałem dziwne stukanie, takie rytmiczne, pukanie. Wydaje mi się, że to mogło być łożysko na wiatraku karty graficznej.
+      <br>
+      Koledzy, czy to możliwe aby łożysko strzeliło już po pół roku?
+    </p>
+
+    <p id="powiekszenie_okroj">
+      Nikodem Okroj
+      <br>
+      Przychodzi facet do sklepu zoologicznego i przygląda się zwierzakom na wystawie. W międzyczasie wchodzi inny klient i kupuje małpę z klatki obok. Facet słyszy cenę: 5 000 USD. - Czemu ta małpa taka droga? - Ona programuje biegle w C... wie pan... szybki, czysty kod, nie robi błędów... warta jest tej ceny. Obok stała druga klatka, a tam cena: 10 000 USD - A ta małpa czemu taka droga? - Bo ta małpa programuje obiektowo w C++, może też pisać w Visual C++, trochę w Javie... wie pan... tego typu. Bardzo przystępna cena. - A ta małpa? - pyta facet wskazując na klatkę z ceną 50 000 USD
+      <br>
+      Taaaa? Nigdy nie widziałem, by coś robiła, ale mówi, że jest konsultantem.
+    </p>
+
+    <p id="pomniejszenie_okroj">
+      Nikodem Okroj
+      <br>
+      Z programowaniem jak z budową katedry,
+      <br>
+      budujesz a potem się modlisz (żeby wszystko działało)
+    </p>
+  </div>
+</body>
+</html>
+
+=====CSS=====
+#pogrubienie_okroj {
+    font-size: 33px;
+    color: #95626C;
+    font-weight: bold;
+}
+
+
+#pochylona{
+    font-size: 38px;
+    color: #E9C66C;
+    font-style: italic;
+}
+
+#index_gorny_okroj{
+    font-size: 1.3cm;
+    color: #A9941C;
+    vertical-align: super;
+}
+
+#index_dolny_okroj{
+    font-size: 2.1cm;
+    color: RGB(27%, 97%, 89%);
+    vertical-align: sub;
+}
+
+#mono_okroj{
+    color: #29E46C;
+    font-size: 43px;
+}
+
+#powiekszenie_okroj{
+    color: #63449E;
+
+}
+
+#pomniejszenie_okroj{
+    color: RGB(78%, 66%, 23%);
+}

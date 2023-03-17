@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+      td, th{
+          color: white;
+          font-family: sans-serif;
+      }
+      .table, .table tr th, .table tr td {
+          border: 1px solid #b6ad90;
+          margin: 0;
+      }
+  </style>
+</head>
+<body>
+  <table class="table">
+    <tr>
+      <th>Pojęcie</th>
+      <th >Znaczenie pojęcie uzupełnia uczeń</th>
+    </tr>
+    <tr>
+      <td>Co znaczy skrót ID?</td>
+      <td>Skrót z języka angielskiego: Identificator - po poslku Identyfikator - oznacza przeważnie numer identyfikacyjny np. obiektu w bazie danych lub elementu na stronie HTML</td>
+    </tr>
+
+    <tr>
+      <td>Jaki jest cel stosowania ID?</td>
+      <td>W HTML używamy ID aby oznaczyć dany obiekt (np. div lub button) daną nazwą aby później móc się odwołać do niego w CSS lub JS</td>
+    </tr>
+
+    <tr>
+      <td>Jakie jest znaczenie znaku #</td>
+      <td>znak '#' jest to początek selektora do id w CSS - stworzono go aby css rozpoznawał czy odwołujemy się do id lub klasy</td>
+    </tr>
+
+    <tr>
+      <td>Jak następuje wywołanie ID</td>
+      <td>Aby nadać id danemu obiektowi wystarczy w tagu HTML dodać 'ID="nazwa"' - gdzie nazwa stanowi nazwę id jakie chcemy nadać obiektowi</td>
+    </tr>
+
+    <tr>
+      <td>Uwagi na temat stosowania ID</td>
+      <td>
+        <ul>
+          <li>Id może wystąpić <u>tylko raz</u> w całym dokumencie html, zaś można użyć tego same ID w dwóch plikach np. strona główna i podstrona</li>
+          <li>nie można używać w nazwie ID spacji, ponieważ spowoduje to nadanie dwóch id do jednego obiektu np. id="dwa slowa" spowoduje nadanie jednemu obiektowi id 'dwa' oraz id 'slowa'</li>
+          <li>
+            Id musi być unikatowe ponieważ przy bardziej zaawansowanych stronach lub aplikacjach internetowych JavaScript nie byłby w stanie działać poprawnie<br/>
+            Na przykład, jest stolik z trzydziestoma telefonami, wszystkie zaczynają dzwonić w tym samym momencie. i twój znajomy który siedzi obok na kanapie mówi żebyś podał mu jego telefon.<br/>
+            i teraz pytanie - który telefon jest jego?<br/>
+            gdyby twój znajomy powiedział "podaj mi mój telefon, to ten biały samsung w niebieskiej obudowie" to byś wiedział praktycznie odrazu który jest jego (zakładając że jest tylko jeden białby samsung w niebieskiej obudowie)<br/>
+            ale gdyby było takich białych samsungów w niebieskiej obudowie 5 to już nie da się wybrać tego jednego, podobnie działa komputer, przypisuje do pamięci że np. ID = 'menu_strony' to komponent po lewej z likami do podstron, dzięki czemu wie, że to ten jeden jedyny komponent na całej stronie.
+            <span style="color: dimgrey; font-size: 10px">Mam nadzieje że wytłumaczyłem w zrozumiały sposób :) Nikodem Okroj</span>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,48 @@
+=====HTML=====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zad 18</title>
+  <link rel="stylesheet" href="../../default.css"/>
+  <style>
+    .card-local {
+        margin: 12px;
+        border: 2px #582f0e solid;
+        background-color: #7f4f24;
+        padding: 8px;
+        border-radius: 12px;
+    }
+    .card-title-local {
+        font-size: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-content" style="font-size: 24px">
+    <div class="card-local">
+      <div class="card-title-local">Znacznik div (blok 1) -> Nikodem Okroj</div>
+      <span style="text-decoration: #a68a64 underline">Element blokowy (div)</span> jest elementem blokowym, może zawierać wewnątrz siebie zwykły też jak również inne dowolne elementy HTML, Używa się go do grupowania elementów lub porządkowania struktury większej strony.
+      <ul>
+        <li>Div-a używa się do organizacji i grupowania elementów w większych witrynach oraz wyodrębniania poszczególnych grup elementów (np. formularz logowania od paska nawigacji witryny)</li>
+        <li>Służy do utworzenia sekcji (czyli bloku) w HTML'u i językach pochodnych (.vue, .jsx itp) do sformatowania w CSS lub SASS</li>
+      </ul>
+    </div>
+    <div class="card-local">
+      <span class="card-title-local">Znacznik span (Blok 2) -> 16 Mar 21:37</span>
+      <ul>
+        <li><span style="text-decoration: #a68a64 underline;">Jest to element liniowy</span> co oznacza że NIE wypełnia całej szerokości strony a tylko taką ilość ile zajmują elementy lub tekst który umieścimy w środku</li>
+        <li>Jedno z zastosowań tego elementu to zmiana tylko części tekstu np. w paragrafie lub div-ie</li>
+        <li>Można też użyć go w javascript-cie poprzez nadanie span-owi id i wybranie go w kodzie js.</li>
+      </ul>
+    </div>
+    <div class="card-local">
+      <span class="card-title-local">Różnica między span-em a div-em -> 1P</span>
+      <ul>
+        <li>div (bez stylowania go) wypełnia całą dostępną szerokość, a spon tylko szerokość swojej zawartości, co oznacza że div jest elementem <b>Blokowym</b> a span <b>Liniowym</b></li>
+        <li>Jeśli utworzyli byśmy dwa div-y (nawet z jedną literką w środku) i nadali im kolor tła - będzie widocznę że div jest wypełniony na całą szerokość witryny lub elementu rodzica, zaś span w takim samym wypadku pojawi się obok siebie i wypełniona będzie tylko literka</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

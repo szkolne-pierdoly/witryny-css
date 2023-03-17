@@ -1,0 +1,16 @@
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+#gruby_okroj {
+    color:green;
+    font-size:17pt;
+    font-weight:bold;
+}
+
+#dlawszystkich_okroj, #dlawszystkich_okroj2 {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}

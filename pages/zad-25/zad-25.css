@@ -1,0 +1,65 @@
+.headText{
+    color: #ffeb00;
+    font-size: 1cm;
+    text-align: center;
+}
+.akapit1{
+    color: #d56313;
+    text-align: right;
+
+}
+.akapit2{
+    color: #00ffff;
+    text-align: center;
+}
+#first_p{
+    font-family: serif;
+    text-decoration: overline red 2px;
+    font-style: italic;
+    text-indent: 28mm;
+    line-height: 2cm;
+    word-spacing: 10px;
+    letter-spacing: 2ex;
+
+}
+#f_1{
+    font-weight: 500;
+    color: #ff0b00;
+    font-size: small;
+}
+#f_2{
+    font-weight: 600;
+    color: #ff354d;
+    font-size: medium;
+}
+#f_3{
+    font-weight: 700;
+    font-size: xx-large;
+    color: #ff0047;
+    text-transform: capitalize;
+}
+
+#second_p{
+    font-family: sans-serif;
+    color: #ffb700;
+    text-decoration: line-through;
+    font-style: oblique;
+    text-indent: 25mm;
+    line-height: 15mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.5cm;
+
+}
+#s_1{
+    font-weight: 300;
+    font-size: 21px;
+}
+#s_2{
+    font-weight: 600;
+    font-size: 3in;
+    text-transform: capitalize;
+}
+#s_3{
+    font-weight: 800;
+    font-size: 1em;
+}

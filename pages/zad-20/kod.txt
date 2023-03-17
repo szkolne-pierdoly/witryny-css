@@ -1,0 +1,53 @@
+=====HTML=====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zad 20</title>
+  <style>
+
+  </style>
+</head>
+<body>
+  <div style="background-color: #FFFDD0; width: 100%; height:40%">
+    <p>
+      P jest kolorem pomarańczowym
+      <br>
+      <br>
+      wielkość 20 punktów
+      <br>
+      <br>
+      i Czcionka Arial
+      <br>
+      <br>
+      Informatyka to nauka o komputerach, działaniu ich, programowaniu i pisaniu aplikacji na nie oraz przetwarzaniem danych.
+  </div>
+
+  <div style="background-color: #FF00FF; width=80%; height:15%" >
+    <p>
+      <i style="color: green; font-size: 20pt"> <b>
+        Rozmiary wartości:
+      </b></i>
+      <strike style="color:red;font-size:20pt;">
+        8 bajtów = 1 bit
+      </strike>
+      <u style="color:purple;font-size: 20pt;text-decoration: overline;">
+        1kb = 1000 byte-ów
+      </u>
+      #C0D727
+  </div>
+
+  <br>
+
+  <div style="background-color: #C0D727; width=100%; height:30%" >
+    <h1 style="color:blue;font-size:30pt;">
+      Aplikacje internetowe działają dzięki
+    </h1>
+    <ol>
+      <li style="color:blue; font-size:25pt;">Frontendowi - części aplikacji która uruchamia się bezpośrednio w przeglądarce klienta</li>
+      <li style="color:red; font-size:20pt;">Backendowi - części która przetwarza informacje i łączy się z bazą danych</li>
+      <li style="color:gray; font-size:15pt;">Bazie danych - części która przechowuje wszystkie informacje o aplikacji.</li>
+    </ol>
+  </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div style="color: white;">
+    <h1>1. Jakie standardowo dostępne są czcionki w systemie Windows</h1>
+    <ul>
+      <li type="square">Times New Roman (serif)</li>
+      <li type="square">Ariat (sans serif)</li>
+      <li type="square">Courier New  (monospace)</li>
+    </ul>
+
+    <h1>2. Jakich czcionek dodatkowo dostarcza Internet Explorerem</h1>
+    <ul>
+      <li>Trebuchet MS</li>
+      <li>Verdana</li>
+      <li>Georgia</li>
+      <li>Tahoma</li>
+    </ul>
+
+    <h1>3. Wymień rodziny ogólne</h1>
+    <ul>
+      <li>sans-serif – <u>czcionka bezszeryfowa - zwykła prosta czcionka, bez żadnych ozdób</u></li>
+      <li>serif – <u>czcionka szeryfowa - posiada ozdobniki na końcówkach znaków</u></li>
+      <li>fantasy – <u>czcionka dekoracyjna</u></li>
+      <li>cursive – <u>czcionka pochyła, bardziej podobna do pisma ręcznego</u></li>
+      <li>monospace – <u>każdyn znak ma tą samą szerokość</u></li>
+    </ul>
+
+    <h1>4. Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy</h1>
+    <ul>
+      <li>rodziny czcionek stosujemy gdy chcemy zmienić podstawową czcionkę strony lub dowolnego jej tekstu.</li>
+      <li>aby zmienić czcionkę należy w użyć css: 'font-family: {rodzina czcionki};</li>
+    </ul>
+
+    <h1>5. Rodzaje wyrównanie tekstu</h1>
+    <ul>
+      <li>'left' - wyrównanie do lewej strony</li>
+      <li>'right' - wyrównanie do prawej strony</li>
+      <li>'center' - wyrównanie do środka elementu ojca</li>
+      <li>'justify - justowanie, wyrównanie do obu marginesów</li>
+    </ul>
+
+    <h1>6. Kolor tekstu</h1>
+    <p>aby zdefiniować kolor tekstu w CSS należy użyć atrybutu color: 'color: #color;' - można użyć też rgb lub dowolnego innego wspieranego systemu kolorów albo zmiennej w SASS</p>
+
+    <h1>7. dekoracja tekstu</h1>
+    <div style="text-decoration: underline #000 1px">
+      <li>
+        czasami potrzebujemy innego wariantu tekstu. na przykład aby w długim tekscie na kilka akapitów wybrać najważniejsze informacje to byśmy je podkreślili.
+        <br/>
+        do tego służy text-decoration!
+        <br/>
+        teoria 'text-decoration: typ-dekoracji kolor grubość;'
+      </li>
+      <li>
+        <div style="font-size: 24px">Wyjaśnienia:</div>
+        <ol>
+          <li style="font-size: 20px">typ dekoracji</li>
+          <li>
+            <ul>
+              <li>Jest to argument w którym definiujemy czym ma być ta dekoracja</li>
+              <li>
+                Jakie są typy?
+                <ol>
+                  <li>none - brak dekoracji - <b>w tym wypadku dodanie atrybutów koloru i grubości nic nie zmieni bo nie będzie nic widoczne!!!</b></li>
+                  <li>underline - podkreślenie dolne - tekst będzie podrekśliny na dole po dodaniu grubości podkreślenia oraz jego koloru <b>kolor w selektorze text-decoration ustawia tylko kolor podkreślenia!!! nie zmienia koloru tekstu!!!</b></li>
+                  <li>line-through - linia na środku (t.zw. przekreślenie) przekreśla linią na środku linii tekstu caly tekst w elemencie który obejmuje ten selektor - przy wpisywaniu selektora ustawiamy również jego kolor oraz grubość</li>
+                  <li>overline - linia nad tekstem - nadkreślenie (chyba tak to się nazywa) - nad każdą linijką tekstu który obejmuje ten selektor pojawia się linia o zdefiniowej w selektorze grubości i kolorze</li>
+                  <li>blink - mało ważne i nikt tego nie używa - nawet nowsze przeglądarki tego nie wspierają - tekst migocze</li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </div>
+
+    <h1>8. Warianty czcionek</h1>
+    <ul>
+      <li>normal - tekst jest taki sam, jak się go wpisze</li>
+      <li>small-caps - tekst jest pisany tylko i wyłącznie małymi literami, czyli abc..., nie pojawiają się w nim duże litery czyli ABC... nawet jak są wpisane w HTML'u</li>
+    </ul>
+
+    <h1>9. Pogrubienie czcionek</h1>
+    <ul>
+      <li>pogrubienie czcionek definiuje się za pomocą liczb lub nazw</li>
+      <li>definiowanie za pomocą liczb polega na wpisaniu odpowiedniej wielkrotności liczby 100 do selektora 'font-weight' np. czcionka o standardowej grubości to 'font-weight: 400' a czcionka o największej grubości to 'font-weight: 900' a najcieńsza to: 'font-weight: 100'</li>
+      <li>zaś gdy definiujemy czcionkę za pomocą zapisu słownego to wpisujemy odpowiednie 'thin, light, regular, medium, bold, black' - nazwy podane w kolejności od najcieńszej do najgrubszej</li>
+    </ul>
+
+    <h1>10. Rozmiar czcionek</h1>
+    <ul>
+      <li>Rozmiar czcionek można definiować za pomocą dowolnej, dostępnej w CSS jednostki wielkości, np. px, vw lub mm</li>
+      <li>przykładowe ustawienie rozmiaru czcionki (tutaj na 24px) wygląda na stępująco: 'font-size: 24px' - po wpisaniu selektora, orazu wpisujemy rozmiar czcionki</li>
+    </ul>
+
+    <h1>11. Transformacja tekstu</h1>
+    <p>
+      Składnia selektora:<br>
+      text-transform: wartosc;<br>
+      Wyraz wartosc zastępujemy jednym z poniższych elementów.<br>
+      "none" - brak zmian<br>
+      "capitalize" - zamiana pierwszych liter wszystkich wyrazów na duże<br>
+      "uppercase" - zamiana wszystkich liter na wielkie<br>
+      "lowercase" - zamiana wszystkich liter na małe
+    </p>
+
+    <h1>12. wcięcia tekstu</h1>
+    <p>
+      Składnia selektora:<br>
+      text-indent: wartosc;<br>
+      Wyraz wartosc zastępujemy wielkością wcięcia np. 12px, 12% lub 3vw.<br>
+    </p>
+
+    <h1>13. Odstęp miedzy wierszami</h1>
+    <p>
+      składnia selektora:<br/>
+      line-height: wartosc;<br/>
+      Wyraz wartość zastępujemy wartością odstępu np. 4px, 3% lub 3vw
+    </p>
+
+    <h1>14. Odstęp między wyrazami</h1>
+    <p>
+      Składnia selektora<br/>
+      word-spacing: wartosc;<br/>
+      wyraz wartość należy zastąpić wartością odstępu, np. 2px, 1% lub 3mm
+    </p>
+
+    <h1>15. odstęp między literami</h1>
+    <p>
+      składnia selektora:<br/>
+      letter-spacing: wartosc;<br/>
+      wyraz wartosc należy zastąpić wartością odstępu, np. 0.5px, 1mm, 0.2% itp
+    </p>
+
+    <h1>16. łączenie wartości czcionek i tekstu</h1>
+    <ul>
+      <li>font-style</li>
+      <li>font-variant</li>
+      <li>font-weight</li>
+      <li>font-size</li>
+      <li>line-height</li>
+      <li>font-family</li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -17,6 +17,7 @@
 
 .cell-menu {
     width: 15vw;
+    overflow-y: auto;
 }
 
 .cell-menu:last-child {

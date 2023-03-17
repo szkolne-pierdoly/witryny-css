@@ -1,0 +1,21 @@
+=====HTML=====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zad 17 p 2</title>
+</head>
+<body>
+  <div class="page-content">
+    <span style="color: red">
+      <b>To jest pogrubienie w ramach elementu div oraz span i dlatego jest czerwone na zielonym tle.</b><br/>
+      tutaj jest już zwykły tekst - również wewnątrz span i div
+    </span>
+    tutaj zwykły tekst wewnątrz div-a
+    <p>to jest akapit element blokowy wewnątrz div</p>
+  </div>
+</body>
+</html>
+
+=====CSS=====
+brak pliku css - kod umieszczony liniowo w elementach HTML
