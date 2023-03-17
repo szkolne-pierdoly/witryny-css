@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>zad 5 - demonstracja podłączenia plików</title>
+    <link rel="stylesheet" href="zad-menu.css"/>
+  </head>
+  <body>
+    <nav class="tabs">
+      <p class="text-bold text-lighter-1 tab-item tab-item-no-clickable">CSS:</p>
+      <a href="./strony/importowany.html" target="content-second" class="tab-a"><div>
+        <p class="tab-item">Importowany</p>
+      </div></a>
+      <a href="strony/zewnetrzny.html" target="content-second" class="tab-a"><div>
+        <p class="tab-item">Zewnętrzny</p>
+      </div></a>
+      <a href="./strony/wewnętrzny.html" target="content-second" class="tab-a"><div>
+        <p class="tab-item">Wewnętrzny</p>
+      </div></a>
+      <a href="./strony/liniowy.html" target="content-second" class="tab-a"><div>
+        <p class="tab-item">Liniowy</p>
+      </div></a>
+      <div style="clear: both;"></div>
+    </nav>
+    <div class="content">
+      <iframe src="./strony/importowany.html" name="content-second" class="i-content-second">
+
+      </iframe>
+    </div>
+  </body>
+</html>

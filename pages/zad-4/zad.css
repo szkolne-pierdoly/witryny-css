@@ -1,0 +1,20 @@
+@import "../../default.css";
+
+.card {
+    border: 2px solid #c2c5aa;
+    margin: 16px;
+    padding: 12px;
+    border-radius: 16px;
+    background-color: #c2c5aa25;
+}
+
+.text-left {
+    text-align: inherit;
+}
+
+.code {
+    background-color: #7f4f24;
+    padding: 24px;
+    border: solid #582f0e 2px;
+    border-radius: 12px;
+}

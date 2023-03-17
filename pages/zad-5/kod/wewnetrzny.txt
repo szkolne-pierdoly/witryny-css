@@ -1,0 +1,61 @@
+=====HTML=====
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>wewnętrzny - zad 5</title>
+    <style>
+        @import "../../../default.css";
+
+        .title {
+            font-size: 48px;
+            color: #656d4a;
+            font-family: Calibri, serif;
+            background-color: #cad1af;
+            float: left;
+            padding: 24px;
+            border-radius: 24px;
+        }
+
+        .subtitle {
+            font-size: 32px;
+            color: #333d29;
+            background-color: #b6ad90;
+            float: left;
+            padding: 12px;
+            border-radius: 12px;
+            font-family: monospace, serif;
+        }
+
+        .header {
+            font-size: 24px;
+            font-family: Bahnschrift, serif;
+            color: #a4ac86;
+            margin: 12px;
+            float: left;
+            text-decoration: underline 2px solid;
+        }
+
+        .paragraph {
+            margin: 20px;
+            font-family: 'Roboto', sans-serif;
+            color: #cad1af;
+        }
+
+        .clear-both {
+            clear: both;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Wewnętrzny:</h1>
+    <p>aby zobaczyć róznice między plikami proszę zbadać stronę / wejść w menu kodu</p>
+    <p>niestety aby nie przepisywać kodu trzydzieści razy, postanowiłem dodać tag @import w każdym css aby miał dostęp do podstawowego szablonu strony (koloru tła, tekstu, czcionki, itp)</p>
+    <h1 class="title">Okroj</h1><div class="clear-both"/>
+    <h3 class="subtitle">Tekst poniżej to tekst PRZYKŁADOWY</h3><div class="clear-both"/>
+    <h5 class="header">nie ma on większego sensu i służy tylko do demonstracji jak wyglądać ma kontent</h5><div class="clear-both"/>
+    <p class="paragraph">Współczesne środowisko biznesowe jest bardziej złożone i skomplikowane niż kiedykolwiek wcześniej. Firmy muszą dostosowywać się do zmieniających się warunków, aby móc przetrwać i konkurować w dzisiejszych czasach. Aby wyeliminować nieefektywne procesy i zwiększyć wydajność, firmy muszą inwestować w najnowocześniejsze technologie i systemy informatyczne. Innowacyjne rozwiązania informatyczne pozwalają firmom tworzyć lepsze produkty i usługi, a także skuteczniej zarządzać ich operacjami i zasobami.</p>
+  </body>
+</html>
+=====CSS=====
+cały css został umieszczony w pliku HTML

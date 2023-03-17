@@ -1,0 +1,43 @@
+@import "../../default.css";
+
+.table {
+    border: 2px solid #b6ad90;
+    border-radius: 16px;
+    background-color: #b6ad9010;
+}
+
+.table tr th {
+    border: 2px solid #b6ad90;
+}
+
+.table-top-full {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.table-bottom-left {
+    border-bottom-left-radius: 12px;
+}
+
+.table-bottom-right {
+    border-bottom-right-radius: 12px;
+}
+
+.title-cell {
+    font-size: 48px;
+    background-color: #b6ad90;
+}
+
+.subtitle-cell {
+    font-size: 32px;
+    background-color: #b6ad9080;
+}
+
+.normal-text-cell {
+    font-size: 18px;
+    background-color: #b6ad9025;
+}
+
+.p-12px {
+    padding: 12px;
+}

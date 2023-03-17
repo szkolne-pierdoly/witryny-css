@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 4 - Podłączanie pliku</title>
+    <link rel="stylesheet" href="zad.css"/>
+</head>
+<body>
+  <div class="content">
+    <div class="card text-center">
+      <h1>Wykorzystanie znacznika LINK</h1>
+      <h3>Umieszczamy w tagu <code>< head ></code></h3>
+      <div class="text-left code">
+        <code>
+          < link rel="stylesheet" type="text/css" href="plik.css" /><br/>
+        </code>
+      </div>
+    </div>
+
+    <div class="card text-center">
+      <h1>Wykorzystanie znacznika STYLE</h1>
+      <h3>Umieszczamy w tagu <code>< head ></code></h3>
+      <div class="text-left code">
+        <code>
+          < style >@import url('plik.css');< /style ><br/>
+        </code>
+      </div>
+    </div>
+
+    <div class="card text-center">
+      <h1>Wykorzystanie znacznika SCRIPT</h1>
+      <h3>Umieszczamy w tagu <code>< head ></code></h3>
+      <div class="text-left code">
+        <code>
+          < script type="text/javascript" src="plik.css">< /script ><br/>
+        </code>
+      </div>
+    </div>
+
+    <div class="card text-center">
+      <h1>Wykorzystanie odwołania do pliku css w atrybucie CLASS</h1>
+      <h3>Umieszczamy w dowolnym tagu</h3>
+      <div class="text-left code">
+        <code>
+          < body class="plik-css">
+          ...
+          < /body><br/>
+        </code>
+      </div>
+    </div>
+
+    <div class="card text-center">
+      <h1>Wykorzystanie odwołania do pliku css w atrybucie STYLE</h1>
+      <h3>Umieszczamy w dowolnym tagu</h3>
+      <div class="text-left code">
+        <code>
+          < body style="background: url(plik.css);" >
+          ...
+          < /body><br/>
+        </code>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

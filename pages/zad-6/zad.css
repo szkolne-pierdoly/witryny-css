@@ -1,0 +1,13 @@
+@import "../../default.css";
+
+body {
+    color: #cad1af;
+}
+
+p {
+    color: #333d29;
+    background-color: #a4ac86;
+    width: 300px;
+    border-radius: 4px;
+    padding: 4px;
+}

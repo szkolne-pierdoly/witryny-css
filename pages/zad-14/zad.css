@@ -1,0 +1,10 @@
+@import "../../default.css";
+
+table th {
+    border: #cad1af solid 2px;
+    background-color: #cad1af25;
+}
+
+table {
+    border: #cad1af solid 2px;
+}

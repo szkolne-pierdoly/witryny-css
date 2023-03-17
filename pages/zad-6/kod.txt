@@ -1,0 +1,34 @@
+=====HTML=====
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>zad 6 - styl zewnetrzny</title>
+    <link rel="stylesheet" href="zad.css">
+  </head>
+  <body>
+    <div class="content">
+      :-D - Uśmiech
+      <p>:-P - Zdziwienie</p>
+      :-/ - Wielkie zdziwienie
+      <p>:-O - Niezadowolenie</p>
+      :'( - Smutek
+      <p>;-) - Żart</p>
+    </div>
+  </body>
+</html>
+
+=====CSS=====
+@import "../../default.css";
+
+body {
+    color: #cad1af;
+}
+
+p {
+    color: #333d29;
+    background-color: #a4ac86;
+    width: 300px;
+    border-radius: 4px;
+    padding: 4px;
+}
