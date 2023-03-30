@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>zad 32</title>
+  <link rel="stylesheet" href="../../default.css">
+  <style>
+    .table {
+      border: black 2px solid;
+      gap: 0;
+      border-collapse: collapse;
+      color: black;
+    }
+
+    .table th {
+      border: black 2px solid;
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+
+    .table td {
+      border: black 2px solid;
+      padding: 10px;
+      background-color: #c3c3c3;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <p>Model pudełkowy strony (ang. box model) to jeden z fundamentalnych konceptów w HTML 5, który określa sposób, w jaki przeglądarka internetowa interpretuje i renderuje elementy HTML na stronie internetowej.</p>
+
+    <ol>
+      <li>Każdy element HTML na stronie internetowej jest traktowany jako reprezentacja bryły (pudełka) z określoną wysokością, szerokością, marginesami, wewnętrznymi i zewnętrznymi wypełnieniami oraz obramowaniem. W ten sposób, każdy element HTML można przedstawić jako składającą się z kilku warstw bryłę.</li>
+      <li>Elementy HTML mogą być grupowane i hierarchicznie zagnieżdżane w innych elementach, co pozwala na tworzenie bardziej zaawansowanych układów i struktur stron internetowych.</li>
+      <li>Model pudełkowy strony jest kluczowym elementem w projektowaniu stron internetowych, ponieważ umożliwia precyzyjne pozycjonowanie i wyświetlanie elementów na stronie oraz kontrolowanie ich rozmiaru i marginesów.</li>
+    </ol>
+
+    <table class="table">
+      <tr>
+        <th>zawartość</th>
+        <th>Opis</th>
+      </tr>
+      <tr>
+        <td>margin</td>
+        <td>odstęp pomiędzy elementem a jego otoczeniem</td>
+      </tr>
+      <tr>
+        <td>border</td>
+        <td>obramowanie elementu</td>
+      </tr>
+      <tr>
+        <td>padding</td>
+        <td>odstęp pomiędzy elementem a jego zawartością</td>
+      </tr>
+      <tr>
+        <td>content</td>
+        <td>zawartość elementu</td>
+      </tr>
+    </table>
+
+    <p>uwagi:</p>
+    <p>
+      1. Elementy "inline" w modelu pudełkowym:<br/>
+      W modelu pudełkowym, elementy HTML dzielą się na dwie kategorie: "block" i "inline". Elementy "block" są reprezentowane jako bryły z określoną wysokością i szerokością oraz wewnętrznym i zewnętrznym wypełnieniem i marginesem, podczas gdy elementy "inline" nie mają takiej struktury i są wyświetlane w linii z tekstem.<br/>
+      Jednak elementy "inline" mogą również wpływać na model pudełkowy, na przykład poprzez zmianę wewnętrznego wypełnienia lub marginesów elementów "block". W związku z tym, aby zapewnić spójne i przewidywalne wyświetlanie elementów na stronie, należy zwrócić uwagę na to, jak elementy "inline" wpływają na model pudełkowy.
+    </p>
+    <p>
+      2. Wpływ wartości "box-sizing":<br/>
+      W modelu pudełkowym, każdy element HTML ma domyślnie wartość "box-sizing: content-box", co oznacza, że wysokość i szerokość elementu są określane przez jego zawartość oraz wewnętrzne wypełnienie i obramowanie. Jednak można zmienić tę wartość na "border-box", co spowoduje, że wysokość i szerokość elementu będą obejmować również obramowanie i wewnętrzne wypełnienie.<br/>
+      Zmiana wartości "box-sizing" może mieć znaczący wpływ na model pudełkowy, szczególnie w przypadku projektowania responsywnych stron internetowych. Dlatego ważne jest, aby zrozumieć, jak zmiana tej wartości wpłynie na wyświetlanie elementów na stronie.
+    </p>
+  </div>
+</body>
+</html>

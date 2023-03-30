@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .comp-1 {
+      width: 200pt;
+      height: 2.5cm;
+      background-color: #ccc;
+      border-top: 3px solid #000;
+      border-bottom: 3px solid #808080;
+      border-left: 3px solid #ff0000;
+      border-right: 3px solid #ff00ff;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 4px;
+    }
+    .comp-2 {
+      width: 300pt;
+      height: 2cm;
+      background-color: #747474;
+      border: 3px dashed #c0c0c0;
+      margin-left: auto;
+      margin-right: 50%;
+      margin-top: 4px;
+    }
+    .comp-3 {
+      width: 400pt;
+      height: 3cm;
+      background-color: #808080;
+      border: 3px double #000;
+      margin-left: 50%;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="comp-1">
+    Okroj<br/>
+    Szerokość: 200pt |
+    Wysokość: 2.5cm |
+    kolor: odcienie szarego |
+    kolor obramowania: |
+    górny: 1 |
+    dolny: 3 |
+    lewy: 5 |
+    prawy: 7 |
+    styl obramowania: 3
+  </div>
+
+  <div class="comp-2">
+    Nikodem<br/>
+    szerokosc: 300pt |
+    wysokosc: 2cm |
+    kolor obramowania: 2 |
+    styl obramowania: 2
+  </div>
+
+  <div class="comp-3">
+    1p g1 - 31 <br/>
+    szerokosc: 400pt |
+    wysokosc: 3cm |
+    kolor obramowania: 3 |
+    styl obramowania: 4
+  </div>
+</body>
+</html>

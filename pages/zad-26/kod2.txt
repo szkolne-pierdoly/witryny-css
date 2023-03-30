@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Przykład linków HTML</title>
+</head>
+<body>
+
+	<h1>Moje ulubione strony internetowe:</h1>
+	<ul>
+		<li><a href="http://www.google.com">Google</a></li>
+		<li><a href="http://www.facebook.com">Facebook</a></li>
+		<li><a href="http://www.youtube.com">YouTube</a></li>
+	</ul>
+
+</body>
+</html>
